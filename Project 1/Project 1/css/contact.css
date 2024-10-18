@@ -1,0 +1,65 @@
+.container-binnen {
+  text-align: center;
+  border: solid 2px black;
+  border-radius: 15%;
+  background-color: white;
+  padding: 10px;
+  color: black;
+}
+
+.contact {
+  background-color: #a8dadc;
+  border: 2px solid #6a9395;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 60px auto;
+  width: 40%;
+  display: flex;
+}
+
+form {
+  width: 40%; 
+  display: flex;
+  flex-direction: column;
+  margin-right: 30px;
+}
+
+.contact h2, p {
+  width: 300px;
+  text-align: left;
+}
+
+label {
+  margin-bottom: 5px;
+}
+
+input, textarea {
+  border: 1px solid #1D3557;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  padding: 10px;
+}
+
+button {
+  padding: 10px;
+  background-color: #1D3557;
+  color: white;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.socmedbuttons {
+  margin-top: 20px;
+}
+
+.socmedbuttons a {
+  text-decoration: none;
+  color: white;
+  background-color: #E63946;
+  padding: 10px 20px;
+  margin-right: 10px;
+  border-radius: 5px;
+  display: inline-block;
+  font-size: 16px;
+  border: 1px solid #80141d;
+}

@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact</title>
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/contact.css" />
+    <link rel="icon" type="image/x-icon" href="icon/favicon.ico">
+    <!-- Mijn favico is een watermark die ik gebruik voor mijn online drawings.
+     Het is de J + R van mijn naam aan elkaar geplakt als soort van infusie van 2 letters naar 1 -->
+
+     <style>
+      @font-face {
+        font-family: myFirstFont;
+        src: url(BAHNSCHRIFT.TTF);
+        /* Ik kon geen bahnschrift light vinden, alleen bahnschrift */
+      }
+
+      * {
+        font-family: myFirstFont;
+      }
+    </style>
+
+  </head>
+  <body>
+    <ul class="navigatie">
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="hobby's en interesses.html">Hobby's en interesses</a></li>
+      <li><a href="ervaring.html">Ervaring</a></li>
+      <li><a href="curriculum vitae.html">CV</a></li>
+      <li><a href="index.html">Start</a></li>
+      <li class="naam">Jenny-Rose Adriaensen</li>
+    </ul>
+
+    <div id="banner">
+      <div class="container-binnen">
+        <h1>Contact</h1>
+      </div>
+    </div>
+
+    <div id="footer">
+      <ul class="footer-list">
+        <li>email: info@jennys-portfolio.be</li>
+        <li class="socialmedia">
+          <a
+            href="https://www.facebook.com/jennyrose.adriaensen"
+            target="_blank"
+            >FB</a
+          >
+        </li>
+        <li class="socialmedia">
+          <a href="https://www.instagram.com/jenny.adriaensen" target="_blank"
+            >Insta</a
+          >
+        </li>
+        <li class="socialmedia">
+          <a
+            href="https://www.linkedin.com/in/jenny-adriaensen-529377330/"
+            target="_blank"
+            >LinkedIn</a
+          >
+        </li>
+      </ul>
+    </div>
+
+    <div class="contact">
+      <form action="#" method="post">
+        <label for="voornaam">Voornaam</label>
+        <input type="text" id="voornaam" placeholder="Voornaam..." />
+
+        <label for="achternaam">Achternaam</label>
+        <input type="text" id="achternaam" placeholder="Achternaam..." />
+
+        <label for="email">Email</label>
+        <input type="email" id="email" placeholder="E-mailadres..." />
+
+        <label for="message">Reactie</label>
+        <textarea
+          id="message"
+          placeholder="Geef hier uw vraag of reactie..."
+        ></textarea>
+
+        <button type="submit">Verstuur</button>
+      </form>
+
+      <div class="text">
+        <h2>Heb je nog een vraag of opmerking?</h2>
+        <p>
+          Als u nog een vraag of een opmerking heeft, dan kunt u volgens het
+          formulier contact met mij opnemen. U kunt ook de onderstaande knoppen
+          gebruiken om contact met mij op te nemen via mijn social media.
+        </p>
+
+        <div class="socmedbuttons">
+          <a
+            href="https://www.facebook.com/jennyrose.adriaensen"
+            target="_blank"
+            ><i class="fa-brands fa-facebook-f"></i>FB</a
+          >
+          <a href="https://www.instagram.com/jenny.adriaensen" target="_blank"
+            >Insta</a
+          >
+          <a
+            href="https://www.linkedin.com/in/jenny-adriaensen-529377330/"
+            target="_blank"
+            >LinkedIn</a
+          >
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
